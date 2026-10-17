@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Diggo: политика конфиденциальности</title>
+<style>
+  :root { color-scheme: dark; }
+  body { margin: 0; background: #0A0C10; color: #E8ECF2; font: 16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 28px; line-height: 1.25; margin: 0 0 4px; }
+  h2 { font-size: 19px; margin: 32px 0 8px; color: #3DF2B0; }
+  p, li { color: #C9D1DC; }
+  .muted { color: #8A94A3; font-size: 14px; }
+  hr { border: 0; border-top: 1px solid #1E2430; margin: 48px 0; }
+  a { color: #3DF2B0; }
+</style>
+</head>
+<body>
+<main>
+<h1>Diggo: политика конфиденциальности</h1>
+<p class="muted">Действует с 17 октября 2026 года. <a href="#en">English version below</a>.</p>
+
+<p>Diggo — VPN-приложение для Android. Оно создаёт зашифрованный туннель от твоего телефона до серверов Diggo. Мы стараемся знать о тебе как можно меньше.</p>
+
+<h2>Что мы не собираем</h2>
+<ul>
+  <li>Какие сайты и приложения ты открываешь, что скачиваешь и о чём переписываешься.</li>
+  <li>Журналы трафика и DNS-запросов.</li>
+  <li>Имя, номер телефона, почту, контакты, местоположение, рекламные идентификаторы.</li>
+  <li>Аналитику и отчёты о сбоях: в приложении нет сторонних SDK для аналитики и рекламы.</li>
+</ul>
+
+<h2>Что хранится и где</h2>
+<ul>
+  <li><b>На телефоне.</b> Профиль подключения (адреса серверов и ключ доступа) и настройки приложения. Они не покидают устройство, кроме случаев, когда ты сам делишься профилем через QR-код или ссылку. Удаление приложения удаляет их.</li>
+  <li><b>На серверах.</b> Чтобы пропустить трафик, сервер на время соединения видит IP-адрес твоего устройства. Сервер не записывает, куда ты ходишь. В технические сообщения об ошибках сервера может попасть IP-адрес; эти сообщения хранятся не дольше 7 дней и нужны только для починки серверов.</li>
+  <li><b>Проверка соединения.</b> Приложение периодически открывает <code>https://www.gstatic.com/generate_204</code> через туннель, чтобы выбрать самый быстрый сервер. Никаких данных о тебе в этом запросе нет.</li>
+</ul>
+
+<h2>Передача третьим лицам</h2>
+<p>Мы не продаём и не передаём данные о тебе третьим лицам и не показываем рекламу. Трафик не подменяется и не используется для монетизации.</p>
+
+<h2>Разрешение VPN</h2>
+<p>Приложение использует системный сервис Android VpnService только для одной цели: создать VPN-туннель, который ты включаешь сам. Выключить его можно в приложении или в уведомлении Android.</p>
+
+<h2>Дети</h2>
+<p>Diggo не предназначен для детей младше 13 лет и сознательно не собирает о них данные.</p>
+
+<h2>Изменения и связь</h2>
+<p>Если политика изменится, новая версия появится на этой странице с новой датой. Вопросы можно задать по почте разработчика, указанной на странице Diggo в Google Play.</p>
+
+<hr>
+
+<section id="en" lang="en">
+<h1>Diggo privacy policy</h1>
+<p class="muted">Effective October 17, 2026.</p>
+
+<p>Diggo is a VPN app for Android. It creates an encrypted tunnel from your phone to Diggo's servers. We aim to know as little about you as possible.</p>
+
+<h2>What we do not collect</h2>
+<ul>
+  <li>Which websites and apps you use, what you download or what you send.</li>
+  <li>Traffic logs or DNS query logs.</li>
+  <li>Your name, phone number, email, contacts, location or advertising IDs.</li>
+  <li>Analytics or crash reports: the app contains no third-party analytics or advertising SDKs.</li>
+</ul>
+
+<h2>What is stored and where</h2>
+<ul>
+  <li><b>On your phone.</b> The connection profile (server addresses and an access key) and app settings. They never leave the device unless you share the profile yourself by QR code or link. Uninstalling the app deletes them.</li>
+  <li><b>On our servers.</b> To carry your traffic, a server sees your device's IP address while you are connected. Servers do not record where you go. A server's technical error messages may contain an IP address; they are kept for no more than 7 days and are used only to fix servers.</li>
+  <li><b>Connection checks.</b> The app periodically requests <code>https://www.gstatic.com/generate_204</code> through the tunnel to pick the fastest server. The request contains no data about you.</li>
+</ul>
+
+<h2>Sharing</h2>
+<p>We do not sell or share data about you with third parties and do not show ads. Your traffic is never modified or used for monetization.</p>
+
+<h2>VPN permission</h2>
+<p>The app uses Android's VpnService for one purpose only: to create the VPN tunnel that you turn on yourself. You can turn it off in the app or from the Android notification.</p>
+
+<h2>Children</h2>
+<p>Diggo is not directed to children under 13 and does not knowingly collect data about them.</p>
+
+<h2>Changes and contact</h2>
+<p>If this policy changes, the new version will appear on this page with a new date. Questions: use the developer email listed on Diggo's Google Play page.</p>
+</section>
+</main>
+</body>
+</html>
